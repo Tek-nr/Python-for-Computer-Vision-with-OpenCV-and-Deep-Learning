@@ -26,11 +26,6 @@ model.compile(optimizer='adam',
 
 model.fit(x_train, y_train, epochs=5)
 
-"""plt.imshow(x_test[123])
-plt.show()
-prediction = model.predict(np.array([x_test[123],]))
-print(np.argmax(prediction))"""
-
 pencereAdi = 'Canvas'
 img = np.zeros((500,500))
 cv2.namedWindow(pencereAdi)
