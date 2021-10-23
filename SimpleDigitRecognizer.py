@@ -26,9 +26,9 @@ model.compile(optimizer='adam',
 
 model.fit(x_train, y_train, epochs=5)
 
-"""plt.imshow(x_test[123])
+"""plt.imshow(x_test[111])
 plt.show()
-prediction = model.predict(np.array([x_test[123],]))
+prediction = model.predict(np.array([x_test[111],]))
 print(np.argmax(prediction))"""
 
 pencereAdi = 'Canvas'
